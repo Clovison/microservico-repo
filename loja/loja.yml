@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/loja?useTimezone=true&serverTimezone=America/Sao_Paulo&useSSL=false
+    username: root
+    password: root
+  jpa:
+    hibernate:
+     ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
